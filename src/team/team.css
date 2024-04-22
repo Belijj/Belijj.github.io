@@ -1,0 +1,95 @@
+
+
+.nameLabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+
+
+.nameLabel{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #101c54;
+}
+
+
+.teamMembers{
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-rows: 2;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    grid-gap: 70px;
+    grid-template-columns: 225px 225px 225px 225px 225px 225px;
+}
+
+.oneMember{
+    height: 40%;
+    width: 15%;
+    min-width: 150px;
+    border-radius: 20px;
+    grid-row: 1;
+    text-align: center;
+}
+
+.oneMember img{
+    height: 70%;
+    border-radius: 20px;
+}
+
+.oneMember p{
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #101c54;
+}
+
+.oneMember p1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #e29828
+}
+
+.points{
+    height: 500px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+
+
+.pts li{
+    
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #101c54;
+}
+
+.pts span{
+    color: #e29828;
+}
+
+.points img{
+    margin-top: 3%;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 400px;
+    height: 260px;
+}

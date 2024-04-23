@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import './home.css';
 
 function Home() {
@@ -7,10 +8,10 @@ function Home() {
                 <h1>BALTIC MARINE TRAVEL</h1>
                 <p>We work - You fly</p>
             </div>
-                <div className='photo_part'></div>
-            
+            <div className='photo_part'></div>
         </div>
     );
 }
 
 export default Home;
+

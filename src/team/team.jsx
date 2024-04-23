@@ -6,7 +6,7 @@ function Team() {
   return (
     <div className="returnerTeam">
         <div className="nameLabel">
-            <a>Our Team</a>
+            <h1>Our Team</h1>
         </div>
         <div className="teamMembers">
             <div className="oneMember">

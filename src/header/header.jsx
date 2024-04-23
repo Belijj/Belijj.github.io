@@ -20,7 +20,6 @@ function Header() {
                     <li><a href = '/links'>Links</a></li>
                     <li><a href = '/contacts'>Contacts</a></li>
                 </ul>
-                <div className="lupa">lupa</div>
             </nav>
     </header>
   );

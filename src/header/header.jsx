@@ -15,9 +15,9 @@ function Header() {
                 <ul className='nav-menu'>
                     <li><a href = '/'>Home</a></li>
                     <li><a href = '/about'>About</a></li>
-                    <li><a href = '/contacts'>How it works</a></li>
+                    <li><a href = '/how'>How it works</a></li>
                     <li><a href = '/team'>Our Team</a></li>
-                    <li><a href = '/contacts'>Links</a></li>
+                    <li><a href = '/links'>Links</a></li>
                     <li><a href = '/contacts'>Contacts</a></li>
                 </ul>
                 <div className="lupa">lupa</div>

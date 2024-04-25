@@ -17,7 +17,7 @@ function Header() {
                     <li><a href = '/about'>About</a></li>
                     <li><a href = '/contacts'>How it works</a></li>
                     <li><a href = '/team'>Our Team</a></li>
-                    <li><a href = '/contacts'>Links</a></li>
+                    <li><a href = '/test'>Links</a></li>
                     <li><a href = '/contacts'>Contacts</a></li>
                 </ul>
             </nav>

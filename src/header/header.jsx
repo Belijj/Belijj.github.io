@@ -17,7 +17,11 @@ function Header() {
                     <li><a href = '/about'>About</a></li>
                     <li><a href = '/how'>How it works</a></li>
                     <li><a href = '/team'>Our Team</a></li>
+<<<<<<< HEAD
                     <li><a href = '/links'>Links</a></li>
+=======
+                    <li><a href = '/test'>Links</a></li>
+>>>>>>> 0ff66c6c4fcf131e038dd5b856bd24789c7f16cf
                     <li><a href = '/contacts'>Contacts</a></li>
                 </ul>
             </nav>

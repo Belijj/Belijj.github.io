@@ -1,4 +1,5 @@
 .nameLabel{
+    margin-top: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +16,7 @@
 }
 .nameLabel h1{
     font-size: 7vh;
+    margin: 0;
 }
 
 
@@ -51,9 +53,9 @@
     border-radius: 20px;
     grid-row: 1;
     text-align: center;
-    opacity: 0; /* Начальное значение непрозрачности */
+    opacity: 0;
     transition: opacity 1s, transform 0.3s ease;
-    animation: fadeIn 1s forwards; /* Применяем анимацию fadeIn */
+    animation: fadeIn 1s forwards;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,20 +64,20 @@
 .oneMember img {
     height: 70%;
     border-radius: 20px;
-    transition: transform 0.3s ease; /* Добавляем плавный переход при изменении transform */
+    transition: transform 0.3s ease;
 }
 
-/* При добавлении класса .show, элемент появляется */
+
 .oneMember.show {
-    opacity: 1; /* Конечное значение непрозрачности */
-    transform: translate(0); /* Конечное значение смещения */
+    opacity: 1;
+    transform: translate(0);
 }
 
 .oneMember:hover img {
-    transform: scale(1.1); /* Увеличиваем размер картинки на 10% при наведении */
+    transform: scale(1.1);
 }
 
-/* Применяем эффект увеличения к параграфам внутри .oneMember */
+
 .oneMember p,
 .oneMember p1 {
     font-size: 24px;
@@ -83,12 +85,12 @@
     font-family: sans-serif;
     text-decoration: none;
     color: #101c54;
-    transition: font-size 0.3s ease; /* Добавляем плавный переход при изменении размера шрифта */
+    transition: font-size 0.3s ease;
 }
 
 .oneMember:hover p,
 .oneMember:hover p1 {
-    font-size: 28px; /* Увеличиваем размер шрифта на 4px при наведении */
+    font-size: 28px;
 }
 
 .points{
@@ -126,7 +128,9 @@
 {
     .points img
 {
-    width:0px;
-    height: 0px;
+    display: none;
+}
+.pts{
+    margin-left: -10%;
 }
 }

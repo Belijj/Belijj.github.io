@@ -1,0 +1,54 @@
+.linksReturn h1{
+    font-size: 7vh;
+    justify-content: center;
+    text-align: center;
+    color: #101c54;
+}
+
+
+.linksReturn {
+    margin-top: 5%;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.linksReturn p{
+    color: #101c54;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-top: 7.5%;
+    margin-left: 10%;
+    font-size: 4vh;
+}
+
+
+.partners li{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 5%;
+    color: #101c54;
+}
+
+
+.partners{
+    margin-top: 5%;
+}
+
+
+.one{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.two{
+    display: flex;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}

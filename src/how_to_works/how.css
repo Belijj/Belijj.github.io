@@ -32,10 +32,18 @@
 
 
 .linePTS{
+    display: flex;
     margin-top: 7.5%;
     margin-left: 7.5%;
-    max-width: 50px;
+    width: 40%;
     height: 500px;
-    align-items: center;
 }
+
+.linePTS p{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
 

@@ -71,18 +71,17 @@
 
 .text__area
 {
-    width: 200px;
-    height: 80vh;
+    height: 60vh;
     background-color: white;
     border-radius: 30px;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 40%;
     margin-top: 5%;
     margin-left: 2%;
     flex: 1;
 }
 .text__area p {
-    margin: 5% 2% 12% 5%;
+    margin: 5% 2% 8% 5%;
 }
 .context
 {

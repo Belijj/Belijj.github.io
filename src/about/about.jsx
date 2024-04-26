@@ -5,7 +5,7 @@ import Ship from './ship.jpeg';
 function About() {
 
     return (
-        <div className='wrap'>
+        <div className='wrap__about'>
             <h1>Marine & Shipping Crew</h1>
             <div className='about_wrap'>
                 <div className='info_card'>

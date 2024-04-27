@@ -16,13 +16,12 @@ function App() {
     <Router>
       <MobHeader />
       <Routes>
-<<<<<<< HEAD
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
 
         <Route path="/team" element={<Team/>} />
 
-        <Route path = "/how" element={<How/>}/>
+        <Route path = "/how" element={<How_works/>}/>
 
         <Route path = "/contacts" element={<Contacts/>}/>
 
@@ -30,13 +29,6 @@ function App() {
 
 
         
-=======
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/contacts" element={<Contacts />} />
-        <Route path="/how_it_works" element={<How_works/>}/>
->>>>>>> ed846a19034f7fe12a798d5635df3d828a8518ea
       </Routes>
     </Router>
   );

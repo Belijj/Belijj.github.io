@@ -1,6 +1,6 @@
 import './team.css';
 import Photo from './photo.jpeg';
-import Travel from './travel.jpeg';
+import Travel from './file.png';
 
 function Team() {
   return (

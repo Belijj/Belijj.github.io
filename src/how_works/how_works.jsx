@@ -2,7 +2,7 @@ import './how_works.css';
 
 function How_works() {
     return (
-        <div>
+        <div className='how__wrap'>
             <div className='head__how'>
                 <h1>How It Works?</h1>
             </div>

@@ -78,9 +78,8 @@
 }
 
 
-.oneMember p,
-.oneMember p1 {
-    font-size: 24px;
+.oneMember p {
+    font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
     text-decoration: none;
@@ -88,9 +87,18 @@
     transition: font-size 0.3s ease;
 }
 
+.oneMember p1 {font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style:italic;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:orange;
+    transition: font-size 0.3s ease;}
+
 .oneMember:hover p,
 .oneMember:hover p1 {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .points{

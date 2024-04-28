@@ -1,3 +1,7 @@
+.how__wrap
+{
+    animation: fadeIn 1s;
+}
 .head__how
 {
     margin-top: 10%;
@@ -37,11 +41,13 @@
 
 
 .icon-wrapper {
+    position: relative; /* Ensure the parent is positioned */
     display: flex;
     align-items: center;
     margin-bottom: 10%;
     margin-left: 15%;
 }
+
 .icon-wrapper p{
     margin-left: 10%;
 }
@@ -58,15 +64,15 @@
 
 .icon::after {
     margin-top: 140%;
-    content: ''; /* Ensuring that content is empty */
+    content: ''; 
     position: absolute;
     top: 50%;
-    left: calc(50% - 2px); /* Adjusting left position to center the line */
+    left: calc(50% - 1.5px);
     transform: translateY(-50%);
-    height: 200% ; /* Adjust the height as needed */
+    height: 200% ; 
     width: 4px;
     background-color: rgb(255, 115, 0);
-    z-index: 1; /* Ensuring it's above the .icon */
+    z-index: 1; 
 }
 
 .icon::before {
@@ -75,6 +81,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
@@ -88,6 +104,11 @@
     margin-top: 5%;
     margin-left: 2%;
     flex: 1;
+    transition: 0.3s ease;
+}
+.text__area:hover
+{
+    transform: scale(1.05);
 }
 .text__area p {
     margin: 5% 2% 8% 5%;

@@ -6,6 +6,7 @@ body {
     margin-top: 10%;
     text-align: center;
     color: #101c54;
+    animation: fadeIn 1s;
 }
 
 .wrap__about h1 {
@@ -36,7 +37,6 @@ body {
     height: 50vh;
     margin: 10px;
     border-radius: 15px;
-    animation: fadeIn 1s;
     transition: 0.3s ease;
 }
 

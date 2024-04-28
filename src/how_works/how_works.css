@@ -34,6 +34,8 @@
 }
 
 
+
+
 .icon-wrapper {
     display: flex;
     align-items: center;
@@ -45,6 +47,7 @@
 }
 
 .icon {
+    z-index: 1;
     position: relative;
     height: 6vh;
     width: 6vh;
@@ -53,6 +56,18 @@
     font-size: 1.8vh;
 }
 
+.icon::after {
+    margin-top: 140%;
+    content: ''; /* Ensuring that content is empty */
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 2px); /* Adjusting left position to center the line */
+    transform: translateY(-50%);
+    height: 200% ; /* Adjust the height as needed */
+    width: 4px;
+    background-color: rgb(255, 115, 0);
+    z-index: 1; /* Ensuring it's above the .icon */
+}
 
 .icon::before {
     content: attr(data-number);
@@ -111,6 +126,7 @@
     {
         align-self: center;
         margin: 0px;
+        margin-top: 20%;
         font-size: 20px;
     }
 }
